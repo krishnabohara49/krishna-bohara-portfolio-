@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krishna Bohara | Portfolio</title>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        background: #0d0d0d;
+        color: white;
+        scroll-behavior: smooth;
+    }
+    header {
+        background: linear-gradient(45deg, #222, #444);
+        padding: 20px;
+        text-align: center;
+    }
+    header img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #ff9800;
+        box-shadow: 0 0 15px #ff9800;
+    }
+    header h1 {
+        font-size: 2.5em;
+        margin: 10px 0;
+    }
+    header p {
+        font-size: 1.2em;
+        opacity: 0.8;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #1a1a1a;
+        padding: 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: #ff9800;
+    }
+    section {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+        color: #ff9800;
+        margin-bottom: 20px;
+    }
+    .social-links a {
+        margin: 0 10px;
+        font-size: 1.2em;
+        color: white;
+    }
+    .social-links a:hover {
+        color: #ff9800;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #111;
+        font-size: 0.9em;
+        opacity: 0.7;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Krishna Bohara</h1>
+    <p>"People go, but memories are forever"</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Krishna Bohara. Born on 2006/02/08 in Deulekh, Bajhang, Nepal. I studied IT from grade 9 to 12, with schooling at Sunkuda Secondary School and Kankali Technical Secondary School in Kathmandu. My hobbies include traveling and riding bikes. My biggest goal is to make my father proud through my achievements.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Riding bike</li>
+        <li>Driving</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Video editing</li>
+        <li>Making websites</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Some of my works include scripted videos and useful websites that aim to bring awareness and creativity into the world.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bajhangikiran@gmail.com">bajhangikiran@gmail.com</a></p>
+    <p>Phone: <a href="tel:+9779748247000">+977 9748247000</a></p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/share/16mR5sdySc/?mibextid=wwXIfr" target="_blank">Facebook</a>
+        <a href="https://www.tiktok.com/@krishbohara49?_t=ZS-8yldy73YUBl&_r=1" target="_blank">TikTok</a>
+        <a href="https://www.instagram.com/law_key26" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 Krishna Bohara | Dreams into Reality
+</footer>
+
+<script>
+    // Example: Add a greeting based on time
+    const hours = new Date().getHours();
+    let greeting;
+    if (hours < 12) greeting = "Good Morning!";
+    else if (hours < 18) greeting = "Good Afternoon!";
+    else greeting = "Good Evening!";
+    alert(greeting + " Welcome to my portfolio.");
+</script>
+
+</body>
+</html>
